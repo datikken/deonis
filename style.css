@@ -1,0 +1,103 @@
+.brand-logo {
+    padding-left: 10px !important;
+}
+
+nav a:hover {
+    background-color: white !important;
+    color: black;
+    text-align: center;
+}
+
+html,
+body,
+#heroimage {
+    width: 100%;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #212121;
+
+}
+
+.hero-section {
+    background: url("https://images.unsplash.com/photo-1538430224529-7eceed6ab252?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") 100% no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hero-section .hero-section-text,
+.section3Text {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+button {
+    background-color: #d50000 !important;
+    z-index: 0 !important;
+    margin-bottom: 25px;
+}
+
+.callToAction,
+button {
+    color: #eeeeee;
+    padding-top: 25px;
+}
+
+#heroimage {
+    height: 510px;
+    background-color: black;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d50000;
+    color: white;
+}
+
+.otlichiya {
+    background-color: #d50000 !important;
+}
+
+.photosWrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.materialboxed {
+    margin: 25px;
+}
+
+
+.collectionList {
+    color: white;
+    margin: 25px;
+    text-align: center;
+}
+
+.containerList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.otlichiya {
+    color: white;
+    background-color: #b71c1c;
+}
+
+.vanna {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
